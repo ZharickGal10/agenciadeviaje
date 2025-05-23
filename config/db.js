@@ -1,11 +1,11 @@
 import Sequelize from 'sequelize';
 
 const db = new Sequelize(
-  'bmcgx1ysujeuvkkfzssp', // base de datos
-  'ud1mnm3ww0pqslo8',     // usuario
-  'ud1mnm3ww0pqslo8', // contraseña
+  'bdgteutptjktys7thrij', // base de datos
+  'ulu8jhjctacen3id',     // usuario
+  'ulu8jhjctacen3id', // contraseña
   {
-    host: 'bmcgx1ysujeuvkkfzssp-mysql.services.clever-cloud.com', // host
+    host: 'bdgteutptjktys7thrij-mysql.services.clever-cloud.com', // host
     dialect: 'mysql',
     port: process.env.DB_PORT || 3306, // agregar explícitamente el puerto si es necesario
     define: {
