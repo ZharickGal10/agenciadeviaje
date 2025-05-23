@@ -3,7 +3,7 @@ import Sequelize from 'sequelize';
 const db = new Sequelize(
   'bdgteutptjktys7thrij', // base de datos
   'ulu8jhjctacen3id',     // usuario
-  'ulu8jhjctacen3id', // contraseña
+  'Gq1obU00WtU1rEOYOayf', // contraseña
   {
     host: 'bdgteutptjktys7thrij-mysql.services.clever-cloud.com', // host
     dialect: 'mysql',
